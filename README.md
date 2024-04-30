@@ -41,5 +41,5 @@ cd waynesgarden-prject
 ```console
 python manage.py runserver
 ```
-Now when you visit: http://127.0.0.1:8000/ you should see that your page looks like image below
+Now when you visit: http://127.0.0.1:8000/ you should see that your page looks like the image below
 ![Django Start Page](django-start-page.jpg)
