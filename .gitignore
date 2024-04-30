@@ -1,0 +1,7 @@
+include/
+lib/
+Scripts/
+venv/
+Ex_Files_Django_Forms/
+Ex_Files_Django_Forms.zip
+pyvenv.cfg
