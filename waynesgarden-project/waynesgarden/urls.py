@@ -24,4 +24,5 @@ urlpatterns = [
     # add home and order paths. leaving home path as an empty string
     path('', views.home, name='home'),
     path('order', views.order, name='order'),
+    path('pizzas', views.pizzas, name='pizzas')
 ]
