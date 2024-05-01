@@ -43,7 +43,7 @@ cd waynesgarden-prject
 python manage.py runserver
 ```
 Now when you visit: http://127.0.0.1:8000/ you should see that your page looks like the image below
-![Django Start Page](django-start-page.jpg)
+![Django Start Page](https://github.com/wanye71/Django-Pizza/blob/main/django-start-page.jpg)
 
 ## Making Forms from Scratch
 ### Step 1. Create a New App
