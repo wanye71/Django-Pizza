@@ -17,7 +17,11 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
+from pizza import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    # add home and order paths. leaving home path as an empty string
+    path('', views.home, name='home'),
+    path('order', views.order, name='order'),
 ]
