@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .forms import PizzaForm
 
 # Create view for home page
 def home(request):
@@ -6,4 +7,5 @@ def home(request):
 
 # Create view for order page
 def order(request):
-    return render(request, 'pizza/order.html')
+    form = PizzaForm()
+    return render(request, 'pizza/order.html', {'pizzaform':form})
