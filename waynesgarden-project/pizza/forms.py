@@ -11,6 +11,9 @@ from .models import Pizza, Size
     
 class PizzaForm(forms.ModelForm):
     
+    # email = forms.EmailField()
+    # url = forms.URLField()
+    
     class Meta:
         model = Pizza
         fields = ['topping1', 'topping2', 'size']
