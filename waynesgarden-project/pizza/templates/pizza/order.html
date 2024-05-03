@@ -33,7 +33,7 @@
            {% render_field field class="form-control" %}
        </div>
       {% endfor %}
-      <input type="submit" value="Order Pizza" />
+      <input type="submit" value="Order Pizza"  class="btn btn-primary"/>
     </form>
 
     <br /><br />
@@ -42,7 +42,7 @@
 
     <form action="{% url 'pizzas' %}" method="get">
       {{ multiple_form }}
-      <input type="submit" value="Get Pizzas" name="" id="" />
+      <input type="submit" value="Get Pizzas" name="" class="btn btn-primary" />
     </form>
 </div>
     <script
