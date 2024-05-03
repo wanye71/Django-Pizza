@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Wayne's Garden</h1>
-    <a href="{% url 'order' %}">Order a pizza</a>
-</body>
-</html>
+{% extends 'pizza/base.html' %}
+{% block 'body' %}
+{% load widget_tweaks %}
+    <div class="text-center">
+        {% load static %}
+        <img src="{% static 'waynesgarden.jpg' %}" alt="" class="img-fluid" alt="Wayne's Garden">
+    </div>
+{% endblock %}
